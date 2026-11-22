@@ -1,26 +1,26 @@
 # PD-Classification-EEG-VWE
 parkinson's Disease classification using EEG and Validated Weighted Ensembling
-Parkinsons-EEG-Detection/
+Parkinsons-EEG-Classification
 │
 ├── README.md
 │
-├── preprocessing/
-│   ├── wavelet_denoising.py
-│   ├── fir_filtering.py
-│   └── ica_artifact_removal.py
+├── preprocessing
+│   ├── wavelet_denoising
+│   ├── fir_filtering
+│   └── ica_artifact_removal
 │
-├── feature_extraction/
-│   └── eeg_features.py
+├── feature_extraction
+│   └── eeg_features
 │
-├── models/
-│   ├── random_forest.py
-│   ├── cnn_lstm.py
-│   ├── transformer.py
-│   └── vwe_ensemble.py
+├── models
+│   ├── random_forest
+│   ├── cnn_lstm
+│   ├── transformer
+│   └── vwe_ensemble
 │
-├── evaluation/
-│   ├── loso_validation.py
-│   ├── confusion_matrix.py
-│   └── weight_stability.py
+├── evaluation
+│   ├── loso_validation
+│   ├── confusion_matrix
+│   └── weight_stability
 │
-└── requirements.txt
+└── requirements
